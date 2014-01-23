@@ -1,0 +1,12 @@
+{
+  "name": "Archetype-u-display",
+  "version": "0.1.0",
+  "author": "Sam Ashley",
+  "main": "_display.scss",
+  "ignore": [
+    ".*",
+    "CHANGELOG.md",
+    "package.json",
+    "/test"
+  ]
+}
