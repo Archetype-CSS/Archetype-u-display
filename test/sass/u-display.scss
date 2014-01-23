@@ -1,0 +1,29 @@
+/**
+ * Test: Archetype/u-display.scss
+ *
+ */
+@import '../../_u-display.scss';
+
+/**
+ * Display Utilties
+ */
+.test__u-inline {
+  @extend %u-inline;
+}
+
+.test__u-inlineBlock {
+  @extend %u-inlineBlock;
+}
+
+.test__u-block {
+  @extend %u-block;
+}
+
+.test__u-table {
+  @extend %u-table;
+}
+
+.test__u-tableCell {
+  @extend %u-tableCell;
+}
+

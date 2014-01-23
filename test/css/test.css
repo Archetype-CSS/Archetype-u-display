@@ -93,18 +93,37 @@ a:focus {
 /**
  * Test
  *
- * 1. setting a max width here because testing text specific styles (ie wrapping etc..)
  */
-/* line 95, ../sass/test.scss */
+/* line 94, ../sass/test.scss */
 .test--structure {
   margin: 1em 0 1em 2em;
   padding: .5em;
-  max-width: 400px;
-  /* 1 */
 }
 
-/* line 101, ../sass/test.scss */
+/* line 99, ../sass/test.scss */
 .test--skin {
   background: #d9d9d9;
   border: 1px solid #a6a6a6;
+}
+
+/**
+ * u-display test styles
+ */
+/**
+ * The hidden `overflow` is used to prevent margin collapse so that
+ * it is easier to test for `inline` vs `inline-block`.
+ */
+/* line 112, ../sass/test.scss */
+.dev-Box {
+  overflow: hidden;
+}
+
+/**
+ * The `margin` is used to differentiate between `inline` and
+ * `inline-block`, as `inline` elements will not apply the margin.
+ */
+/* line 122, ../sass/test.scss */
+.dev-Inner {
+  background: lightgreen;
+  margin: 10px 0;
 }

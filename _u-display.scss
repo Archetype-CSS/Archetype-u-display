@@ -1,25 +1,26 @@
-/*** @export "u-layout--display" css */
+/*** @export "u-display" css */
 /**
  * Display Utilties
+ *
+ * Highly influenced by: https://github.com/suitcss/utils-display/
  */
-
-.u-inline {
+%u-inline {
     display: inline !important;
 }
 
-.u-inlineBlock {
+%u-inlineBlock {
     display: inline-block !important;
 }
 
-.u-block {
+%u-block {
     display: block !important;
 }
 
-.u-table {
+%u-table {
     display: table !important;
 }
 
-.u-tableCell {
+%u-tableCell {
     display: table-cell !important;
 }
 
