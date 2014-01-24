@@ -8,12 +8,11 @@ Archetype utilities for display.
   * Git: `git clone https://github.com/Archetype-CSS/u-display.git`
 
 ## Use
-  * `test-title--structure` - structure styles for the test title
-  * `test-title--skin` - skin styles for the test title
-  * `test-description--structure` - structure styles for the test description
-  * `test-description--skin` - skin styles for the test description
-  * `test--structure` - structure styles for the test
-  * `test--skin` - skin styles for the test
+  * `u-inline` - utility class for display: inline
+  * `u-inlineBlock` - utility class for display: inline-block
+  * `u-block` - utility class for display: block
+  * `u-table` - utility class for display: table
+  * `u-tableCell` - utility class for display: table-cell
 
 ## Run the Test Locally
 

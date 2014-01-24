@@ -104,23 +104,24 @@ a {
 
 /**
  * u-display test styles
+ *
+ * 1. The hidden `overflow` is used to prevent margin collapse so that
+ *    it is easier to test for `inline` vs `inline-block`.
+ * 2. The `margin` is used to differentiate between `inline` and
+ *    `inline-block`, as `inline` elements will not apply the margin.
  */
-/**
- * The hidden `overflow` is used to prevent margin collapse so that
- * it is easier to test for `inline` vs `inline-block`.
- */
-.dev-Box {
-  //background: #ddd;
-  //margin-top: 10px;
-  overflow: hidden;
+.test--structure {
+  overflow: hidden;   /* 1 */
 }
 
-/**
- * The `margin` is used to differentiate between `inline` and
- * `inline-block`, as `inline` elements will not apply the margin.
- */
-.dev-Inner {
-    background: lightgreen;
-    margin: 10px 0;
+.testItem--structure {
+  margin: 10px 0;   /* 2 */
+}
+.testItem--skin {
+  background: lightblue;
+}
+
+.testItem--skin2 {
+  background: lightpink;
 }
 
