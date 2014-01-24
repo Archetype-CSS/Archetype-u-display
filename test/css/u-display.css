@@ -1,0 +1,38 @@
+/**
+ * Test: Archetype/u-display.scss
+ *
+ */
+/*** @export "u-display" css */
+/**
+ * Display Utilties
+ *
+ * Highly influenced by: https://github.com/suitcss/utils-display/
+ */
+/* line 7, ../../_u-display.scss */
+.test__u-inline {
+  display: inline !important;
+}
+
+/* line 11, ../../_u-display.scss */
+.test__u-inlineBlock {
+  display: inline-block !important;
+}
+
+/* line 15, ../../_u-display.scss */
+.test__u-block {
+  display: block !important;
+}
+
+/* line 19, ../../_u-display.scss */
+.test__u-table {
+  display: table !important;
+}
+
+/* line 23, ../../_u-display.scss */
+.test__u-tableCell {
+  display: table-cell !important;
+}
+
+/**
+ * Display Utilties
+ */
