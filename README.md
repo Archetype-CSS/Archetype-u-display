@@ -1,5 +1,4 @@
-# Archetype-u-display
-[![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
+# Archetype-u-display [![Build Status](https://secure.travis-ci.org/Archetype-CSS/u-display.png?branch=master)](http://travis-ci.org/Archetype-CSS/u-display) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/)
 
 Archetype utilities for display.
 
